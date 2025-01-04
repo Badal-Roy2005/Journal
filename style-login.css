@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgb(189, 54, 189),
+    rgb(72, 11, 72),
+    rgb(90, 3, 90)
+  );
+}
+
+.login-box {
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    rgb(181, 144, 197),
+    rgb(79, 20, 90),
+    rgb(36, 3, 3)
+  );
+  width: 30vw;
+  height: 60vh;
+  border: 2px solid #000;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+
+  margin-right: 56px;
+
+  padding: 5px;
+}
+
+.login-box .user-box {
+  margin-top: 150px;
+  margin-bottom: 21px;
+  margin-right: 57.5px;
+  margin-left: 56.7px;
+  width: 90%;
+  height: 35.5px;
+  background: transparent;
+  border: 2px solid #000;
+
+  border-width: 0 0 3px 0;
+}
+
+.login-box .user-password {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 90%;
+  height: 35.5px;
+  background: transparent;
+  border: 2px solid #000;
+
+  border-width: 0 0 3px 0;
+}
+
+.login-box .user-password input {
+  margin-right: 20.3px;
+}
+
+label {
+  top: 0;
+  left: 0;
+  padding: 5px;
+  color: #000;
+  font-size: 1.2rem;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  width: 100px;
+  height: 35.5px;
+  border: 2px solid #000;
+  border-radius: 9px;
+  background: linear-gradient(
+    135deg,
+    rgb(155, 155, 198),
+    rgb(25, 25, 111),
+    rgb(7, 7, 75)
+  );
+
+  transition: 0.5s;
+}
+
+.login-box .submit-button {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.login-box .submit:hover {
+  border-radius: 9px 0 9px 0;
+}
